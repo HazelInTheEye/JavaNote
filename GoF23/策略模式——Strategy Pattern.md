@@ -34,7 +34,7 @@ typora-root-url: ./UML.assets
 
 类图：
 
-![Strategy Pattern-导出](/../策略模式——Strategy Pattern.assets/Strategy Pattern-导出.png)
+![Strategy Pattern-导出](https://raw.githubusercontent.com/HazelInTheEye/JavaNotePicture/master/img/Strategy Pattern-导出.png)
 
 举例：
 
