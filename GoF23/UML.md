@@ -12,7 +12,7 @@
 
 - 不带符号表示 `default`。
 
-    ![img](https://raw.githubusercontent.com/HazelInTheEye/JavaNotePicture/master/img/v2-71b22158f5b09dffa57a123d72ec4653_720w.webp)
+![img](https://raw.githubusercontent.com/HazelInTheEye/JavaNotePicture/master/img/v2-71b22158f5b09dffa57a123d72ec4653_720w.webp)
 
 ### 2、在UML类图中表示抽象类
 
