@@ -30,7 +30,7 @@
 
 类图：
 
-![Strategy Pattern](https://raw.githubusercontent.com/HazelInTheEye/JavaNotePicture/master/img/Strategy%20Pattern.png)
+![Strategy Pattern](https://javapicturebucket.oss-cn-hangzhou.aliyuncs.com/img/Strategy Pattern.png)
 
 举例：
 
