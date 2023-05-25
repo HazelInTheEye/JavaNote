@@ -12,37 +12,37 @@
 
 - 不带符号表示 `default`。
 
-![img](https://raw.githubusercontent.com/HazelInTheEye/JavaNotePicture/master/img/v2-71b22158f5b09dffa57a123d72ec4653_720w.webp)
+![p1](https://javapicturebucket.oss-cn-hangzhou.aliyuncs.com/img/p1.webp)
 
 ### 2、在UML类图中表示抽象类
 
 抽象类在UML类图中同样用矩形框表示，但是抽象类的类名以及抽象方法的名字都用斜体字表示，如图2所示。
 
-![img](https://raw.githubusercontent.com/HazelInTheEye/JavaNotePicture/master/img/v2-5c69cd9ff703377f7bbf37cee8199451_720w.webp)
+![p2](https://javapicturebucket.oss-cn-hangzhou.aliyuncs.com/img/p2.webp)
 
 ### 3、在UML类图中表示接口
 
 接口在类图中也是用矩形框表示，但是与类的表示法不同的是，接口在类图中的第一层顶端用构造型 <<interface>>表示，下面是接口的名字，第二层是方法，如图3所示。此外，接口还有另一种表示法，俗称棒棒糖表示法，就是类上面的一根棒棒糖（圆圈+实线）。圆圈旁为接口名称，接口方法在实现类中出现。
 
-![img](https://raw.githubusercontent.com/HazelInTheEye/JavaNotePicture/master/img/v2-e39bdff5514c38e7797848372ac51365_720w.webp)
+![p3](https://javapicturebucket.oss-cn-hangzhou.aliyuncs.com/img/p3.webp)
 
 ### 4、在UML类图中表示包
 
 类和接口一般都出现在包中，UML类图中包的表示形式如图4所示。
 
-![img](https://raw.githubusercontent.com/HazelInTheEye/JavaNotePicture/master/img/v2-b421c9c15219feba7dd9cf7681070682_720w.webp)
+![p4](https://javapicturebucket.oss-cn-hangzhou.aliyuncs.com/img/p4.webp)
 
 ### 5、在UML类图中表示注释
 
 注释就是对类图的补充说明，可以附加在任何元素上，用右上角有折角的矩形来表示，其内放置说明文字，通过虚线连接被注释的元素。
 
-![在这里插入图片描述](https://raw.githubusercontent.com/HazelInTheEye/JavaNotePicture/master/img/20200310193527330.png)
+![p5](https://javapicturebucket.oss-cn-hangzhou.aliyuncs.com/img/p5.png)
 
 ### 6、在类图中表示关系
 
 类和类、类和接口、接口和接口之间存在一定关系，UML类图中一般会有连线指明它们之间的关系。关系共有六种类型，分别是实现关系、泛化关系、关联关系、依赖关系、聚合关系、组合关系，如图6所示。
 
-![img](https://raw.githubusercontent.com/HazelInTheEye/JavaNotePicture/master/img/v2-e6a48521352fff8270e753ea4a79d9fb_720w.webp)
+![p6](https://javapicturebucket.oss-cn-hangzhou.aliyuncs.com/img/p6.webp)
 
 下面我们详细讲述这些关系，以及在UML类图中如何表示这些关系。
 
@@ -50,7 +50,7 @@
 
 实现关系是指接口及其实现类之间的关系。在UML类图中，实现关系用空心三角和虚线组成的箭头来表示，从实现类指向接口，如图1.9所示。在Java代码中，实现关系可以直接翻译为关键字 `implements`。
 
-![img](https://raw.githubusercontent.com/HazelInTheEye/JavaNotePicture/master/img/v2-616c153ec74d496a811ac50c83c3653c_720w.webp)
+![p7](https://javapicturebucket.oss-cn-hangzhou.aliyuncs.com/img/p7.webp)
 
 #### 2）泛化关系
 
@@ -58,7 +58,7 @@
 
 在UML类图中，泛化关系用空心三角和实线组成的箭头表示，从子类指向父类，如图8所示。在Java代码中，对象之间的泛化关系可以直接翻译为关键字 `extends`。
 
-![img](https://raw.githubusercontent.com/HazelInTheEye/JavaNotePicture/master/img/v2-04064db11797cf36229d67407fea1b83_720w.webp)
+![p8](https://javapicturebucket.oss-cn-hangzhou.aliyuncs.com/img/p8.webp)
 
 #### 3）关联关系
 
@@ -68,7 +68,7 @@
 
 在UML图中，双向关联关系用带双箭头的实线或者无箭头的实线双线表示。单向关联用一个带箭头的实线表示，箭头指向被关联的对象，如图9所示。这就是导航性（Navigatity）。
 
-![img](https://raw.githubusercontent.com/HazelInTheEye/JavaNotePicture/master/img/v2-3f331f3dc075abb4215413014688638f_720w.webp)
+![p9](https://javapicturebucket.oss-cn-hangzhou.aliyuncs.com/img/p9.webp)
 
 一个对象可以持有其它对象的数组或者集合。在UML中，通过放置多重性（multipicity）表达式在关联线的末端来表示。多重性表达式可以是一个数字、一段范围或者是它们的组合。多重性允许的表达式示例如下：
 
@@ -85,7 +85,7 @@
 
 在UML类图中，依赖关系用一个带虚线的箭头表示，由使用方指向被使用方，表示使用方对象持有被使用方对象的引用，如图10所示。
 
-![img](https://raw.githubusercontent.com/HazelInTheEye/JavaNotePicture/master/img/v2-431e044bbf26778a20dd788968e22aac_720w.webp)
+![p10](https://javapicturebucket.oss-cn-hangzhou.aliyuncs.com/img/p10.webp)
 
 依赖关系在Java中的具体代码表现形式为**B为A的构造器**或**方法中的局部变量**、**方法或构造器的参数**、**方法的返回值**，或者**A调用B的静态方法**。
 
@@ -95,7 +95,7 @@
 
 在UML图中，聚合关系用空心菱形加实线箭头表示，空心菱形在整体一方，箭头指向部分一方，如图11所示。
 
-![img](https://raw.githubusercontent.com/HazelInTheEye/JavaNotePicture/master/img/v2-82cb160ed1566d1d04ea320575b54d5f_720w.webp)
+![p11](https://javapicturebucket.oss-cn-hangzhou.aliyuncs.com/img/p11.webp)
 
 组合（Composition）也是关联关系的一种特例，它同样体现整体与部分间的包含关系，即 “contains a” 的关系。但此时整体与部分是不可分的，部分也不能给其它整体共享，作为整体的对象负责部分的对象的生命周期。这种关系比聚合更强，也称为强聚合。如果`A`组合`B`，则`A`需要知道`B`的生存周期，即可能`A`负责生成或者释放`B`，或者`A`通过某种途径知道`B`的生成和释放。
 
@@ -103,7 +103,7 @@
 
 在UML图中，组合关系用实心菱形加实线箭头表示，实心菱形在整体一方，箭头指向部分一方，如图12所示。
 
-![img](https://raw.githubusercontent.com/HazelInTheEye/JavaNotePicture/master/img/v2-e651244eeca9c0881cbdd2add429e850_720w.webp)
+![p12](https://javapicturebucket.oss-cn-hangzhou.aliyuncs.com/img/p12.webp)
 
 在Java代码形式上，聚合和组合关系中的部分对象是整体对象的一个成员变量。但是，在实际应用开发时，两个对象之间的关系到底是聚合还是组合，有时候很难区别。在Java中，仅从类代码本身是区分不了聚合和组合的。如果一定要区分，那么如果在删除整体对象的时候，必须删掉部分对象，那么就是组合关系，否则可能就是聚合关系。从业务角度上来看，如果作为整体的对象必须要部分对象的参与，才能完成自己的职责，那么二者之间就是组合关系，否则就是聚合关系。
 
