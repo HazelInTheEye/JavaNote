@@ -1,3 +1,7 @@
+---
+typora-root-url: ./UML.assets
+---
+
 # 策略模式——Strategy Pattern
 
 策略模式定义了算法族，并将算法族分别封装起来，让它们之间可以**互相替换**（即一个类的行为或其算法可以在运行时更改），此模式让算法的变化独立于使用算法的客户。
@@ -30,7 +34,7 @@
 
 类图：
 
-![Strategy Pattern-导出](D:\JavaNote\GoF23\UML.assets\Strategy Pattern-导出.png)
+![Strategy Pattern-导出](/../策略模式——Strategy Pattern.assets/Strategy Pattern-导出.png)
 
 举例：
 
@@ -138,3 +142,4 @@ public class StrategyPatternDemo {
 10 - 5 = 5
 10 * 5 = 50
 ```
+
