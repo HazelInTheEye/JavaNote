@@ -1,2 +1,8 @@
 # JavaNote
- A learning Note for Java
+ A learning Note for Java.
+
+初衷是为了个人面试换工作而整理，文档摘取自网络博客。
+
+如果有幸看到这个项目，希望可以为你带来帮助。
+
+无任何商业用途，如有侵权请邮箱联系删除。
